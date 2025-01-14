@@ -14,8 +14,7 @@
 
 # Descripción General 
 
-… 
-
+Este proyecto realiza un procesamiento y análisis relacionados son los siniestros vehiculares para realizar una categorización por medio de un modelo XGBoost y definir si es siniestro corresponde a la categoría de **perdida total** o **perdida parcial**. Con el fin de realizar un ajuste en las reservas diariamente.  
  
 
 # Insumos Principales 
@@ -28,7 +27,9 @@ Este modelo utiliza como insumo principal:
 
 - **Joblib** – Contiene los resultados del entrenamiento del modelo XGBoost seleccionado para realizar las predicciones sobre los nuevos sets de datos 
 
-  - co_totalloss.joblib 
+  - co_totalloss.joblib
+
+    - s3://hdi-sagemaker-project-co/data-science/nppm-latam/totallossco/Joblib_TL/   
 
 # Resultados  
 
